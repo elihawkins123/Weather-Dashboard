@@ -1,0 +1,21 @@
+main{
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+#fiveDayForecast{
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}   
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8)
+}
